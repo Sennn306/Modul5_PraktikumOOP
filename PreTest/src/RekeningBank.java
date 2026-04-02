@@ -11,7 +11,7 @@ public class RekeningBank {
     }
     public void setSaldo(double upSaldo){
         if (upSaldo > 0) {
-            this.saldo = saldoUpdate;
+            this.saldo = upSaldo;
         } else {
             System.out.println("Saldo tidak boleh negatif");
         }
