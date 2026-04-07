@@ -25,7 +25,7 @@ public class Main {
         double tagihanKamar2 = kamar2.hitungTotalBayar(4, "PROMO");
         System.out.println("Total Tagihan Kamar 2: Rp" + tagihanKamar2);
 
-        // Cetak st 
+        // Cetak struk
         System.out.println("\nSTRUK PEMESANAN KAMAR");
         kamar1.tampilkanInfoKamar();
         kamar2.tampilkanInfoKamar();
